@@ -18,7 +18,7 @@ module "vpc" {
   version = "3.3.0"
 
   project_id   = "${var.project}"
-  network_name = "vpcmediakind"
+  network_name = "${var.env}"
 
   subnets = [
     {
