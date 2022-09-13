@@ -27,7 +27,7 @@ resource "google_compute_instance" "http_server" {
 
   boot_disk {
     initialize_params {
-      image = "debian-10-tf-2-1-3-v20210108"
+      image = "rhel-7"
     }
   }
 
